@@ -1,0 +1,15 @@
+{
+  "name": "barelparqueweb",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000B\u0000a\u0000r\u0000E\u0000l\u0000P\u0000a\u0000r\u0000q\u0000u\u0000e\u0000W\u0000e\u0000b\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

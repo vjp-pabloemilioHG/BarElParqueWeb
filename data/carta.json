@@ -1,0 +1,8 @@
+[
+    {"id":1, "nombre":"Tapa de Jamón", "precio":3.5, "imagen":"tapa1.jpg"},
+    {"id":2, "nombre":"Cerveza", "precio":2.0, "imagen":"bebida1.jpg"},
+    {"id":3, "nombre": "Croquetas", "precio": "5€" },
+    {"id":4, "nombre": "Patatas Bravas", "precio": "4€" },
+    {"id":5, "nombre": "Cerveza", "precio": "2€" },
+    {"id":6, "nombre": "Refresco", "precio": "1.5€" }
+]

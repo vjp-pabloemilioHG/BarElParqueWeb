@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservas - Bar El Parque</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <h1>Reservar Mesa</h1>
+        <form id="reservaForm">
+            <input id="nombre" placeholder="Nombre" required>
+            <input id="apellido" placeholder="Apellido" required>
+            <input id="dni" placeholder="DNI" required pattern="[0-9]{8}[A-Za-z]{1}" title="Debe ser un DNI válido, 8 números y una letra">
+            <input id="fecha" type="date" required>
+            <input id="hora" type="time" required>
+            <input id="numComensales" type="number" min="1" required>
+            <button type="submit">Reservar</button>
+        </form>
+        <p id="reservaMensaje"></p>
+
+        <h2>Anular Reserva</h2>
+        <input id="dniAnular" placeholder="DNI de la reserva" required>
+        <button id="btnAnular">Anular Reserva</button>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/js/headerFooter.js" defer></script>
+    <script src="/js/reservas.js" defer></script>
+</body>
+</html>
+
+
+
